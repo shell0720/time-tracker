@@ -1,0 +1,20 @@
+Your company downloaded this application from a website to use for hour tracking.
+Your co-worker started updating the code to use jade + stylus + nib but has been put on another project.
+Please complete the following:
+
+	1.) Install all the project pre-requisites
+	2.) Fix the following user complaints:
+		Every time the server is restarted, we lose all the data in the system
+		My username and password is clearly visible in the address bar, what if someone walks by? worse yet, I can see it in the browser history!
+		When I submit my hours, it takes a really long time, what gives?
+		Sometimes when I am using the system at the same time as someone else, our hours get mixed up
+	
+	3.) modify the code to conform to best practices as you understand them
+	4.) identify any security vulnerabilities and recommend a solution
+	5.) this program is ugly! show us your front-end styling and javascript skills!
+	6.) implement 2 or more of the following:
+		- finish implementing all HTML in jade (or another templating engine if you prefer)
+		- a user cannot work more than 40 hours in a week
+		- a user cannot work more than 10 hours in a single day
+		- if a user works Saturday and Sunday, they must not work Monday
+		- write an administrative section which allows specific users to define which days an employee is allowed to work

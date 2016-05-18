@@ -1,0 +1,23 @@
+html(lang="en")
+	head
+		title Test
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='/stylesheets/style.styl')
+
+		script(src='/js/jquery.min.js')
+		script(src="/js/app.js")
+
+
+
+
+	body
+		form(action='/' method="get")
+			| Username:&nbsp;&nbsp;
+			input(type='text', id='user')
+			br
+			| Password:&nbsp;&nbsp;
+			input(type='password', id='pass')
+			br
+			input(type='button', id="loginButton", value='login')
+
+			<div class="welcome"></div>
